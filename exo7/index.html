@@ -9,59 +9,59 @@
 
 <body>
 
-
-    <fieldset>
-        <legend id="legend1">Votre identité</legend>
-        <div id="Votre-identité"><br />
-            <ol>
-                <li><label for="Nom">Nom :</label>
-                    <input type="text" name="Nom" id="Nom" placeholder="Nom"></li>
-                <li><label for="Prénom">Prénom :</label>
-                    <input type="text" name="Prénom" id="Prénom" placeholder="Prénom"></li>
-                <li><label for="Adresse mail">Adresse mail :</label>
-                    <input type="email" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail"></li>
-            </ol><br />
-        </div>
-    </fieldset>
-
-
     <form>
         <fieldset>
-            <legend id="legend2">Adresse de livraison</legend>
-            <div id="Adresse-de-livraison"><br />
+            <legend id="legend1">Votre identité</legend>
+            <div id="Identity"><br />
                 <ol>
-                    <li><label for="Adresse">Adresse :</label>
-                        <textarea name="Adresse" id="Adresse" rows="5"></textarea></li>
-                    <li><label for="Code postal">Code postal :</label>
-                        <input type="text" name="Code postal" id="Code postal" placeholder="Code postal"></li>
-                    <li><label for="Ville">Ville :</label>
-                        <input type="text" name="Ville" id="Ville" placeholder="Ville"></li>
+                    <li><label for="Lname">Nom :</label>
+                        <input type="text" name="Lname" id="Lname" placeholder="Nom"></li>
+                    <li><label for="Fname">Prénom :</label>
+                        <input type="text" name="Fname" id="Fname" placeholder="Prénom"></li>
+                    <li><label for="Email">Adresse mail :</label>
+                        <input type="email" name="Email" id="Email" placeholder="Adresse mail"></li>
                 </ol><br />
             </div>
         </fieldset>
-    </form>
 
-    <form>
+
+
+        <fieldset>
+            <legend id="legend2">Adresse de livraison</legend>
+            <div id="Shipping"><br />
+                <ol>
+                    <li><label for="Address">Adresse :</label>
+                        <textarea name="Address" id="Address" rows="5"></textarea></li>
+                    <li><label for="Postalcode">Code postal :</label>
+                        <input type="text" name="Postalcode" id="Postalcode" placeholder="Code postal"></li>
+                    <li><label for="City">Ville :</label>
+                        <input type="text" name="City" id="City" placeholder="Ville"></li>
+                </ol><br />
+            </div>
+        </fieldset>
+
+
+
         <fieldset>
             <legend id="legend3">Informations de réglement</legend>
-            <div id="Informations-de-réglement"><br />
+            <div id="payment"><br />
                 <ol>
                     <li>Type de carte bancaire :</li>
                     <ul>
-                        <input type="radio" name="carte" id="VISA">
+                        <input type="radio" name="card" id="VISA">
                         <label for="VISA">VISA</label></ul>
                     <ul>
-                        <input type="radio" name="carte" id="Mastercard">
+                        <input type="radio" name="card" id="Mastercard">
                         <label for="Mastercard">Mastercard</label></ul>
 
-                    <li><label for="Numéro de carte">Numéro de carte :</label>
-                        <input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte">
+                    <li><label for="Cardnumber">Numéro de carte :</label>
+                        <input type="text" name="Cardnumber" id="Cardnumber" placeholder="Numéro de carte">
                     </li>
-                    <li><label for="Code de sécurité">Code de sécurité :</label>
-                        <input type="text" name="Code de sécurité" id="Code de sécurité"
+                    <li><label for="Securitycode">Code de sécurité :</label>
+                        <input type="text" name="Securitycode" id="Securitycode"
                             placeholder="Code de sécurtité"></li>
-                    <li><label for="Nom du titulaire">Nom du titulaire :</label>
-                        <input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire">
+                    <li><label for="cardholdername">Nom du titulaire :</label>
+                        <input type="text" name="cardholdername" id="cardholdername" placeholder="Nom du titulaire">
                     </li>
                 </ol><br />
             </div>
