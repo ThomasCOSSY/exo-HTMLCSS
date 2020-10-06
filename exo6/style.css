@@ -1,7 +1,8 @@
 .tableau {
-    flex-direction: row;
-    display: flex;
-
+    
+    display: flex; /*mode cascade, ça se suit*/
+    flex-direction: row 
+     
 }
 
 .cellule1 {
@@ -18,13 +19,13 @@
 
 .cellule3 {
     background-color: #ff8800;
-    width : 33%;
+    width : 50%;
     height: 20px;
 }
 
 .cellule4 {
     background-color: rgb(119, 119, 119);
-    width : 33%;
+    width : 50%;
     height: 20px;
 
 }
@@ -32,24 +33,24 @@
 .cellule5 {
     background-color: rgb(236, 6, 6);
     width : 34%;
-    height: 20px;
+    height: 40px;
 }
 
 .cellule6 {
     background-color: rgb(235, 252, 6);
-    width : 22%;
+    width : 33%;
     height: 20px;
 }
 
 .cellule7 {
     background-color: rgb(6, 252, 240);
-    width : 22%;
+    width : 33%;
     height: 20px;
 }
 
 .cellule8 {
     background-color: rgb(252, 117, 6);
-    width : 22%;
+    width : 34%;
     height: 20px;
 }
 
@@ -57,4 +58,12 @@
     background-color: rgb(51, 51, 48);
     width : 100%;
     height: 60px;
+}
+
+.minitableau{
+    flex-wrap: wrap; /*retour à la ligne*/
+    display: flex; /*mode cascade, ça se suit*/
+    flex-direction: row;
+    width : 100%
+      
 }
