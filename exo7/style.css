@@ -1,0 +1,43 @@
+#Votre-identité {
+    background-color: rgb(0, 132, 255);
+    color: black;
+    font-weight: bold;
+}
+
+#Adresse-de-livraison {
+    background-color: rgb(162, 0, 255);
+    color: black;
+    font-weight: bold;
+}
+
+#Informations-de-réglement {
+    background-color: rgba(255, 0, 119, 0.63);
+    color: black;
+    font-weight: bold;
+}
+
+
+#legend1 {
+    background-color: rgb(0, 132, 255);
+    color: black;
+    font-weight: bold;
+    margin-left:15px;
+    margin-bottom: -15px;
+}
+
+#legend2 {
+    background-color: rgb(162, 0, 255);
+    color: black;
+    font-weight: bold;
+    margin-left:15px;
+    margin-bottom: -15px;
+}
+
+#legend3 {
+    background-color: rgba(255, 0, 119, 0.63);
+    color: black;
+    font-weight: bold;
+    margin-left:15px;
+    margin-bottom: -15px;
+}
+
